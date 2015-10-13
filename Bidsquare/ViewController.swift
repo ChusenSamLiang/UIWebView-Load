@@ -9,17 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var webview: UIWebView!
+    
+    let url = "http://auctions.bidsquare.com/m/"
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let requestURL = NSURL(string:url)
+        let request = NSURLRequest(URL: requestURL!)
+        webview.loadRequest(request)
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
 
 }
 
