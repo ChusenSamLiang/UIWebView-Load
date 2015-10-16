@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		221D6DFF1BCCAD03005809A0 /* bidsquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 221D6DFE1BCCAD03005809A0 /* bidsquare.png */; settings = {ASSET_TAGS = (); }; };
+		221D6E011BCCB1AC005809A0 /* bidsquare_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 221D6E001BCCB1AC005809A0 /* bidsquare_splash.png */; settings = {ASSET_TAGS = (); }; };
 		226332C51BC8B1A700599B09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226332C41BC8B1A700599B09 /* AppDelegate.swift */; };
 		226332C71BC8B1A700599B09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226332C61BC8B1A700599B09 /* ViewController.swift */; };
 		226332CA1BC8B1A700599B09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226332C81BC8B1A700599B09 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		221D6DFE1BCCAD03005809A0 /* bidsquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bidsquare.png; sourceTree = "<group>"; };
+		221D6E001BCCB1AC005809A0 /* bidsquare_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bidsquare_splash.png; sourceTree = "<group>"; };
 		226332C11BC8B1A700599B09 /* Bidsquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bidsquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		226332C41BC8B1A700599B09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		226332C61BC8B1A700599B09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				226332C61BC8B1A700599B09 /* ViewController.swift */,
 				226332C81BC8B1A700599B09 /* Main.storyboard */,
 				221D6DFE1BCCAD03005809A0 /* bidsquare.png */,
+				221D6E001BCCB1AC005809A0 /* bidsquare_splash.png */,
 				226332CB1BC8B1A700599B09 /* Assets.xcassets */,
 				226332CD1BC8B1A700599B09 /* LaunchScreen.storyboard */,
 				226332D01BC8B1A700599B09 /* Info.plist */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221D6E011BCCB1AC005809A0 /* bidsquare_splash.png in Resources */,
 				221D6DFF1BCCAD03005809A0 /* bidsquare.png in Resources */,
 				226332CF1BC8B1A700599B09 /* LaunchScreen.storyboard in Resources */,
 				226332CC1BC8B1A700599B09 /* Assets.xcassets in Resources */,
